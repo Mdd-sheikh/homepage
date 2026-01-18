@@ -1,0 +1,49 @@
+.slider {
+    width: 180px;
+    background-color: blueviolet;
+    margin: 0;
+    height: 90vh;
+    border-top-right-radius: 15px;
+    position: fixed;
+}
+
+.slider-container {
+    width: 175px;
+    height: 95%;
+    justify-items: center;
+
+}
+
+
+.upper-slider li {
+    list-style: none;
+    width: 173px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.upper-slider li:hover {
+    background-color: rgb(34, 3, 63);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.lower-slider {
+    margin-top: 250px;
+    align-items: center;
+}
+
+.lower-slider li {
+    width: 173px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.lower-slider li:hover {
+    background-color: rgb(34, 3, 63);
+   border-radius: 15px;
+    cursor: pointer;
+}
