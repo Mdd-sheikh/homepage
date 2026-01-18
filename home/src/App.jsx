@@ -9,6 +9,8 @@ function App() {
   return (
     <>
      <h1>now im starting to development</h1>
+     <p>today im gonna to do something</p>
+     
     </>
   )
 }
