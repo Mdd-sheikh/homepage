@@ -12,7 +12,8 @@ function App() {
     <Home/>
      <h1>now im starting to development</h1>
      <p>today im gonna to do something</p>
-     <span>Today day 5 learning github as a student</span>
+     <span>Today day 5 learning github as a student</span> 
+     <p>just i added Toushif for collabration and make project together <span>tausifmd373@gmail.com</span></p>
       
     </>
   )
