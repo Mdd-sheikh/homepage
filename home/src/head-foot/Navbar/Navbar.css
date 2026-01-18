@@ -1,0 +1,46 @@
+.Home {
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-left: 70px;
+}
+.left-nav input{
+    border: 1.5px solid blueviolet;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+}
+.left-nav input::placeholder{
+    color: blueviolet;
+    padding: 15px;
+}
+
+.right-nav ul {
+    display: flex;
+    gap: 15px;
+    margin-right: 30px;
+
+}
+
+.right-nav li {
+    list-style: none;
+    padding: 5px;
+    color: blueviolet;
+}
+.right-nav li:hover{
+    background-color: rgb(126, 9, 236) ;
+    color: white; 
+    border-radius: 50px;
+    align-content: center; 
+}
