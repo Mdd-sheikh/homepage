@@ -20,7 +20,7 @@
 }
 .left-nav input{
     border: 1.5px solid blueviolet;
-    width: 250px;
+    width: max(17vw,150px);
     height: 30px;
     border-radius: 10px;
     outline: none;
@@ -47,4 +47,26 @@
     color: white; 
     border-radius: 50px;
     align-content: center; 
+}
+
+
+@media (max-width:450px) {
+     .navbar{
+        width: 100%;
+     }
+
+     .left-nav{
+        margin-left: 0;
+        gap: 10px;
+        margin-left: 0px;
+     }
+
+     .left-nav img{
+        width: 20px;
+     }
+
+     .right-nav ul{
+        gap: 5px;
+        padding: ;
+     }
 }
