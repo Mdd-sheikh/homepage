@@ -5,8 +5,8 @@ import { logo } from '../../assets/assests/Assests.js'
 
 const Navbar = () => {
   return (
-    <div className='Home'>
-        <div className="home-container">
+    <div className='navmain'>
+        <div className="navmain-container">
             <div className="navbar">
                 <div className="left-nav">
                      <img src={logo.nav_logo} alt="" />
