@@ -10,9 +10,9 @@ const Slider = () => {
              <ul>
                <li><NavLink to="/home"><i class="fa-solid fa-house"></i><span>Home</span></NavLink> </li>
                 <li><NavLink to='/product'><i class="fa-solid fa-gift"></i><span>Product</span></NavLink></li>
-                <li><i class="fa-brands fa-stack-overflow"></i><span>Category</span></li>
-                <li><i class="fa-solid fa-book"></i><span>Stores</span></li>
-                <li><i class="fa-solid fa-dollar-sign"></i><span>Finances</span></li>
+                <li><NavLink to='/category'><i class="fa-brands fa-stack-overflow"></i><span>Category</span></NavLink></li>
+                <li><NavLink to='/store'><i class="fa-solid fa-book"></i><span>Stores</span></NavLink></li>
+                <li><NavLink to='/finance'><i class="fa-solid fa-dollar-sign"></i><span>Finances</span></NavLink></li>
                 <li><i class="fa-solid fa-gear"></i><span>Setting</span></li>
             </ul>
            </div>

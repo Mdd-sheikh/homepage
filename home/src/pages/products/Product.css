@@ -6,3 +6,14 @@
 .product-container{
     margin-left: 190px;
 }
+
+
+
+
+
+
+@media (max-width:450px) {
+    .product-container{
+        margin-left: 120px;
+    }
+}
